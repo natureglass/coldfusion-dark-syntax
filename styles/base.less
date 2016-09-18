@@ -295,6 +295,20 @@ atom-text-editor::shadow  .bracket-matcher .region {
   color: #859900;
 }
 
+/* ************************ */
+/* ****** HTML STYLE ****** */
+/* ************************ */
+
+atom-text-editor::shadow {
+  .entity.other.attribute-name.html {
+    color: #ea9d00;
+  }
+}
+
+/* ************************ */
+/* ****** CFML STYLE ****** */
+/* ************************ */
+
 atom-text-editor::shadow {
     .meta.tag.other.cfml,
     .punctuation.tag.cfml,
@@ -302,21 +316,44 @@ atom-text-editor::shadow {
         color: #c83214;
         font-weight: bold;
     }
+    .source.cfscript,
     .meta.scope.cfquery.cfml {
-      color: 839496;
+      color: #839496;
     }
+    .meta.brace.square.cfml,
+    .punctuation.separator.key-value.cfml,
+    .punctuation.definition.string.begin.cfml,
+    .punctuation.definition.string.end.cfml,
     .meta.tag.cfml .source.cfscript {
       color: #c83214;
     }
+
+    .meta.for.cfml {
+      .keyword.control.loop.cfml {
+        color: #16b3ed;
+      }
+    }
+
+    .meta.switch.cfml {
+      .keyword.control.loop.cfml,
+      .keyword.control.switch.cfml {
+        color: #b9006a;
+        font-weight: bold;
+      }
+    }
+
+    .keyword.operator.logical.cfml {
+      color: #268bd2;
+      font-weight: bold;
+    }
+
     .string.quoted.double.cfml {
       color: #268bd2;
       font-style: italic;
     }
+    .keyword.operator.accessor.cfml,
     .constant.character.hash.cfml,
-    .meta.property.object.cfml.property  {
-      color: #dc322f;
-      font-weight: bold;
-    }
+    .meta.property.object.cfml.property,
     .variable.language.scope.cfml,
     .variable.other.object.cfml{
       color: #dc322f;
@@ -328,6 +365,7 @@ atom-text-editor::shadow .cfml {
   .entity.other.attribute-name.cfml {
     color: #c83214;
   }
+  .meta.support.function-call.cfml,
   .support.function.cfml{
     color: #00a300;
   }
@@ -341,35 +379,70 @@ atom-text-editor::shadow .cfscript {
       }
   }
 
-  .keyword.operator.assignment.cfml,
+  .meta.group.braces.curly {
+    .meta.brace.curly.cfml {
+      color: #b9006a;
+      font-weight: normal;
+    }
+  }
+
+  .keyword.operator.assignment.cfml {
+    color: #c83214;
+  }
+
   .keyword.control.conditional.cfml {
     color: #16b3ed;
   }
   .constant.numeric.cfml,
-  .variable.other.object.cfml {
-    color: #a23869;
+  .variable.other.object.cfml,
+  .variable.other.constant.cfml {
+    color: #dc322f;
   }
   .keyword.operator.decision.cfml {
     color: #c83214;
     font-weight: bold;
   }
   .meta.property.object.cfml {
-    color: #839496;
+    color: #dc322f;
     font-weight: normal;
   }
   .meta.brace.curly.cfml{
-    color: #5e7687;
+    color: #800000;
   }
 }
 
-atom-text-editor::shadow .meta.scope.cfoutput.cfml {
-  color: #839496;
-  .invalid.illegal.bad-ampersand.html{
-    color: #839496;
-    text-decoration: none;
-    background-color: transparent;
+atom-text-editor::shadow .text.html.cfml {
+  //color: #839496;
+  .meta.scope.cfoutput.cfml {
+    .invalid.illegal.bad-ampersand.html {
+      color: #839496;
+      text-decoration: none;
+      background-color: transparent;
+    }
   }
 }
+
+/* ************************ */
+/* ****** SQL STYLE ****** */
+/* ************************ */
+
+atom-text-editor::shadow {
+  .constant.numeric.sql,
+  .keyword.other.DML.sql,
+  .keyword.other.DDL.create.II.sql,
+  .keyword.operator.comparison.sql,
+  .keyword.other.data-integrity.sql {
+    color: #268bd2;
+    font-weight: bold;
+  }
+  .constant.other.database-name.sql {
+    background-color: #fff8ff;
+  }
+}
+
+/* *********************** */
+/* ****** CSS STYLE ****** */
+/* *********************** */
 
 atom-text-editor::shadow {
 
@@ -418,11 +491,11 @@ atom-text-editor::shadow {
   .source.css {
 
     .meta.at-rule.media.css {
-      color: #dc322f;
+      color: #ff0000;
     }
 
     .support.type.property-name.media.css {
-      color: #dc322f;
+      color: #ff0000;
     }
 
     .support.constant.media.css {
@@ -430,11 +503,5 @@ atom-text-editor::shadow {
       font-weight: bold;
     }
 
-  }
-}
-
-atom-text-editor::shadow {
-  .entity.other.attribute-name.html {
-    color: #e19d00;
   }
 }
