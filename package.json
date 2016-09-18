@@ -2,14 +2,16 @@
   "name": "coldfusion-dark-syntax",
   "theme": "syntax",
   "version": "0.1.0",
-  "description": "Dark theme with ColdFusion colored tags",
+  "description": "Clean day theme inspired from CFeclipse",
   "keywords": [
-    "syntax",
-    "theme",
-    "ColdFusion",
+    "coldfusion",
+    "cfscript",
     "CFML",
-    "CFM",
-    "CFC"
+    "cfm",
+    "CFC",
+    "CF",
+    "syntax",
+    "theme"
   ],
   "repository": "https://github.com/natureglass/coldfusion-dark-syntax",
   "license": "alexdaskalakis@gmail.com",
