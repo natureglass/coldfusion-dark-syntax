@@ -7,17 +7,19 @@
 
 ![cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18628647/7be60242-7e61-11e6-8eff-ea62f303b6e1.png)
 
-### CFML & SQL ###
+### HTML + CFML tags ###
 
-![cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18629796/57dafbbc-7e68-11e6-88d0-1fb4bdb5c0a6.png)
+![html_cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18629608/f68e416c-7e66-11e6-9934-1d2018077c12.png)
+
 
 ### CFSCRIPT ###
 
 ![cfscript_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18629610/fa12a83c-7e66-11e6-84a5-17e1daffdcdf.png)
 
-### HTML + CFML tags ###
+### CFML & SQL ###
 
-![html_cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18629608/f68e416c-7e66-11e6-9934-1d2018077c12.png)
+![cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18629796/57dafbbc-7e68-11e6-88d0-1fb4bdb5c0a6.png)
+
 
 ### JAVASCRIPT ###
 
