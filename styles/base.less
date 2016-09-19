@@ -350,6 +350,9 @@ atom-text-editor::shadow {
     .string.quoted.double.cfml {
       color: #268bd2;
       font-style: italic;
+      .entity.name.function.cfml {
+        color: #ed6a43;
+      }
     }
     .keyword.operator.accessor.cfml,
     .constant.character.hash.cfml,
@@ -359,6 +362,7 @@ atom-text-editor::shadow {
       color: #dc322f;
       font-weight: bold;
     }
+
 }
 
 atom-text-editor::shadow .cfml {
@@ -418,7 +422,6 @@ atom-text-editor::shadow .cfscript {
 }
 
 atom-text-editor::shadow .text.html.cfml {
-  //color: #839496;
   .meta.scope.cfoutput.cfml {
     .invalid.illegal.bad-ampersand.html {
       color: #839496;
@@ -426,6 +429,11 @@ atom-text-editor::shadow .text.html.cfml {
       background-color: transparent;
     }
   }
+  .comment.block.cfml,
+  .comment.line.cfml{
+    color: #797b79;
+  }
+
 }
 
 /* ************************ */
