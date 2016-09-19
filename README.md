@@ -3,6 +3,10 @@
 
 >This theme should work with most of UI Packages
 
+#### File Tree CF Icons ####
+
+![cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18628647/7be60242-7e61-11e6-8eff-ea62f303b6e1.png)
+
 ### CFML & SQL ###
 
 ![cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18615565/1bb86b4c-7daa-11e6-8598-5290e3df749d.png)
