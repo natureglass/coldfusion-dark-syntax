@@ -9,11 +9,11 @@
 
 ### CFML & SQL ###
 
-![cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18615565/1bb86b4c-7daa-11e6-8598-5290e3df749d.png)
+![cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18629608/f68e416c-7e66-11e6-9934-1d2018077c12.png)
 
 ### CFSCRIPT ###
 
-![cfscript_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18615493/b35afcbe-7da8-11e6-9eb6-7f17266d7fc9.png)
+![cfscript_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18629610/fa12a83c-7e66-11e6-84a5-17e1daffdcdf.png)
 
 ### HTML + CFML tags ###
 
@@ -25,4 +25,4 @@
 
 ### CSS ###
 
-![html_cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18615538/7d0cb44e-7da9-11e6-8486-ffb85bc1515a.png)
+![html_cfml_syntax_colors](https://cloud.githubusercontent.com/assets/22228718/18629616/00bd0308-7e67-11e6-9a30-7221361abb1a.png)
