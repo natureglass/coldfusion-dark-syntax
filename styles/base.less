@@ -69,7 +69,7 @@ atom-text-editor::shadow  .bracket-matcher .region {
 }
 
 .constant, .entity.name.constant, .variable.other.constant, .variable.language {
-  color: #a23869;
+  color: #c15483;
 }
 
 .constant.js {
@@ -99,7 +99,7 @@ atom-text-editor::shadow  .bracket-matcher .region {
 }
 
 .storage, .storage.type {
-  color: #a23869;
+  color: #c15483;
   font-weight: bold;
 }
 
@@ -337,7 +337,7 @@ atom-text-editor::shadow {
     .meta.switch.cfml {
       .keyword.control.loop.cfml,
       .keyword.control.switch.cfml {
-        color: #b9006a;
+        color: #c15483;
         font-weight: bold;
       }
     }
@@ -363,11 +363,17 @@ atom-text-editor::shadow {
 
 atom-text-editor::shadow .cfml {
   .entity.other.attribute-name.cfml {
-    color: #c83214;
+    color: #e04a27;
   }
+
+  .meta.support.function-call.arguments.cfml.punctuation.definition.arguments.begin.cfml,
   .meta.support.function-call.cfml,
   .support.function.cfml{
     color: #00a300;
+  }
+
+  .meta.support.function-call.arguments.cfml{
+    color: #7ebd9e;
   }
 }
 
@@ -381,13 +387,13 @@ atom-text-editor::shadow .cfscript {
 
   .meta.group.braces.curly {
     .meta.brace.curly.cfml {
-      color: #b9006a;
+      color: #c15483;
       font-weight: normal;
     }
   }
 
   .keyword.operator.assignment.cfml {
-    color: #c83214;
+    color: #16b3ed;
   }
 
   .keyword.control.conditional.cfml {
@@ -399,8 +405,8 @@ atom-text-editor::shadow .cfscript {
     color: #dc322f;
   }
   .keyword.operator.decision.cfml {
-    color: #c83214;
-    font-weight: bold;
+    color: #16b3ed;
+    font-weight: normal;
   }
   .meta.property.object.cfml {
     color: #dc322f;
@@ -476,11 +482,11 @@ atom-text-editor::shadow {
 
   .constant.numeric.css {
     font-weight: bold;
-  }
-
-  .constant.numeric.css .keyword.other.unit.css {
-    color: #839496;
-    font-weight: normal;
+    color: #c15483;
+    .keyword.other.unit.css {
+      color: #c15483;
+      font-weight: normal;
+    }
   }
 
   .comment.block.css,
@@ -491,11 +497,11 @@ atom-text-editor::shadow {
   .source.css {
 
     .meta.at-rule.media.css {
-      color: #ff0000;
+      color: #dc322f;
     }
 
     .support.type.property-name.media.css {
-      color: #ff0000;
+      color: #dc322f;
     }
 
     .support.constant.media.css {
