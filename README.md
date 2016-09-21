@@ -1,7 +1,7 @@
 # ColdFusion Dark Syntax Theme for Atom Editor
-## Inspired by CFeclipse ##
+## Inspired by Eclipse + CFeclipse ##
 
->This theme should work with most of UI Packages (Looks nice with "One Dark UI Theme")
+>This theme should work with most of UI Packages
 
 #### File Tree CF Icons ####
 

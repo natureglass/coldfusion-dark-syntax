@@ -1,5 +1,11 @@
 @import "syntax-variables";
 
+@font-face {
+  font-family: code;
+  font-style: regular;
+  src: url('fonts/Consolas.ttf');
+}
+
 atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -50,6 +56,7 @@ atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .r
 
 atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
   background-color: #0d343f;
+  box-shadow: 0px 1px 0px 1px #1e434f;
 }
 
 atom-text-editor::shadow  .bracket-matcher .region {
@@ -61,11 +68,11 @@ atom-text-editor::shadow  .bracket-matcher .region {
 
 .comment.js,
 .punctuation.definition.comment.js {
-  color: #098c57;
+  color: #848583;
 }
 
 .comment, .punctuation.definition.comment, .string.comment {
-  color: #969896;
+  color: #848583;
 }
 
 .constant, .entity.name.constant, .variable.other.constant, .variable.language {
@@ -80,13 +87,14 @@ atom-text-editor::shadow  .bracket-matcher .region {
 }
 
 .entity, .entity.name {
-  color: #6e8697;
+  color: #8394b4;
 }
 
 .variable.parameter.function {
   color: #657b83;
 }
 
+.punctuation.definition.tag.html,
 .punctuation.definition.tag.end.html,
 .punctuation.definition.tag.begin.html,
 .entity.name.tag {
@@ -127,7 +135,7 @@ atom-text-editor::shadow  .bracket-matcher .region {
 }
 
 .variable.other {
-  color: #657b83;
+  color: #0ca901;
 }
 
 .invalid.broken {
@@ -259,7 +267,8 @@ atom-text-editor::shadow  .bracket-matcher .region {
 }
 
 .meta.arguments,
-.meta.output {
+.meta.output,
+.variable.parameter.function.js {
   color: #2aa198;
 }
 
@@ -318,7 +327,7 @@ atom-text-editor::shadow {
     }
     .source.cfscript,
     .meta.scope.cfquery.cfml {
-      color: #839496;
+      color: #8394b4;
     }
     .meta.brace.square.cfml,
     .punctuation.separator.key-value.cfml,
@@ -419,6 +428,11 @@ atom-text-editor::shadow .cfscript {
   .meta.brace.curly.cfml{
     color: #800000;
   }
+
+  .comment.line.double-slash.cfml {
+    color: ##848583;
+  }
+
 }
 
 atom-text-editor::shadow .text.html.cfml {
@@ -430,7 +444,7 @@ atom-text-editor::shadow .text.html.cfml {
     }
   }
   .comment.block.cfml,
-  .comment.line.cfml{
+  .comment.line.cfml {
     color: #797b79;
   }
 

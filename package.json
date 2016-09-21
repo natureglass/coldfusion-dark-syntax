@@ -2,8 +2,10 @@
   "name": "coldfusion-dark-syntax",
   "theme": "syntax",
   "version": "1.0.0",
-  "description": "Clean night theme inspired by CFeclipse",
+  "description": "Clean night theme inspired by Eclipse + CFeclipse",
   "keywords": [
+    "eclipse",
+    "cfeclipse",
     "coldfusion",
     "cfscript",
     "CFML",
