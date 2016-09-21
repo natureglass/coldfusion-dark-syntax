@@ -1,7 +1,7 @@
 {
   "name": "coldfusion-dark-syntax",
   "theme": "syntax",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Clean night theme inspired by Eclipse + CFeclipse",
   "keywords": [
     "eclipse",
